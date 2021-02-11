@@ -38,8 +38,10 @@ componentDidUpdate(prevProps){
                 <img src={this.state.user.avatar_url} alt={this.state.user.name} style={{borderRadius: '50%', maxWidth: '200px'}} />
                 <h3>{this.state.user.name}</h3>
                 <p>username: {this.state.user.login}</p>
+                <p>username: {this.state.user.login}</p>
+                <p>followers: {this.state.user.followers}</p>
+                <p>following: {this.state.user.following}</p>
                 <p>repos: {this.state.user.public_repos}</p>
-                <p>gists: {this.state.user.public_gists}</p>
             </div>
         )
     }
